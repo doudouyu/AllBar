@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1"
+        >
+        <item
+            android:id="@+id/one"
+            android:icon="@mipmap/titleone"
+            android:title="title_one"
+
+            />
+        <item
+            android:id="@+id/two"
+            android:icon="@mipmap/titletwo"
+            android:title="title_two"/>
+        <item
+            android:id="@+id/three"
+            android:icon="@mipmap/titlesan"
+            android:title="title_three"/>
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group2"
+        >
+        <item
+            android:id="@+id/one2"
+            android:icon="@mipmap/setting"
+            android:title="设置"
+
+            />
+        <item
+            android:id="@+id/two2"
+            android:icon="@mipmap/delete"
+            android:title="删除"/>
+        <item
+            android:id="@+id/three2"
+            android:icon="@mipmap/back"
+            android:title="返回"/>
+    </group>
+
+
+</menu>
